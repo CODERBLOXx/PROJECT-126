@@ -1,0 +1,129 @@
+.heading {
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    color: red;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.heading:hover {
+    transition: 1500ms;
+    color: lime;
+}
+
+.note {
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    color: blue;
+    background-color: red;
+    box-shadow: 5px 5px 5px black;
+    font-size: 23px;
+    margin: 15px;
+}
+
+.note:hover {
+    transition: 1500ms;
+    background-color: yellow;
+}
+
+body  {
+    background-size: cover;
+}
+
+.div_speed {
+    float: left;
+}
+
+.div_speed_img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed {
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    color: cyan;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    font-size: 23px;
+    margin: 15px;
+}
+
+#speed:hover {
+    transition: 1500ms;
+    background-color: lime;
+    color: blue;
+}
+
+.div_volume {
+    float: right;
+}
+
+.div_volume_img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+#volume {
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    color: cyan;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    font-size: 23px;
+    margin: 15px;
+}
+
+#volume:hover {
+    transition: 1500ms;
+    background-color: lime;
+    color: blue;
+}
+
+canvas {
+    border: 5px solid cyan;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+
+.play_button {
+    width: 130px;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    color: red;
+    background-color: lime;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.play_button:hover {
+    transition: 1500ms;
+    background-color: cyan;
+    color: blue;
+}
+
+.stop_button {
+    margin-left: 30px;
+    width: 130px;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-family: 'Creepster',cursive;
+    font-style: italic;
+    color: lime;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.stop_button:hover {
+    transition: 1500ms;
+    background-color: blue;
+    color: cyan;
+}
