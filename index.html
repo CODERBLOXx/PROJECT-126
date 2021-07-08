@@ -11,7 +11,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
@@ -19,26 +18,11 @@
 <center>
   	<h3 class="heading">AI DJ WEB APP
 	    <br>
-	    <span class="note">NOTE - Move your left-hand wrist up and down for increasing and decreasing the volume. 
-        Move your right-hand wrist up and down for increasing and decreasing the speed</span>
+	    <span class="note">NOTE - Get your left-hand wrist in front of the webcam to play Harry Potter Theme song,
+            Get your right-hand wrist in front of the webcam to play unknown song.
+            Keep at least 2 feet distance from the webcam, so that your wrists are detected quickly
+        </span>
   	</h3>
-    <div class="div_speed">
-      <img src="disk.gif" class="div_speed_img">
-      <br>
-      <h3 class="btn" id="speed">Speed</h3>
-    </div>
-
-    <div class="div_volume">
-      <img src="disk.gif" class="div_volume_img">
-      <br>
-      <h3 class="btn" id="volume">Volume</h3>
-    </div>
-	<br><br>
-  <span>
-    <button onclick="play();" class="play_button">Play</button>
-    <button class="stop_button" onclick="stop();">Stop</button>
-  </span>
+    <br><br><br>
+    <h3 class="song_name">Song name</h3>
 </center>
-<script src="main.js"></script>
-</body>
-</html>

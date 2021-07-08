@@ -29,71 +29,9 @@
     background-color: yellow;
 }
 
-body  {
-    background-size: cover;
-}
-
-.div_speed {
-    float: left;
-}
-
-.div_speed_img {
-    width: 200px;
-    border-radius: 100px;
-}
-
-#speed {
-    font-family: 'Creepster',cursive;
-    font-style: italic;
-    color: cyan;
-    background-color: red;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px black;
-    font-size: 23px;
-    margin: 15px;
-}
-
-#speed:hover {
-    transition: 1500ms;
-    background-color: lime;
-    color: blue;
-}
-
-.div_volume {
-    float: right;
-}
-
-.div_volume_img {
-    width: 200px;
-    border-radius: 100px;
-}
-
-#volume {
-    font-family: 'Creepster',cursive;
-    font-style: italic;
-    color: cyan;
-    background-color: red;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px black;
-    font-size: 23px;
-    margin: 15px;
-}
-
-#volume:hover {
-    transition: 1500ms;
-    background-color: lime;
-    color: blue;
-}
-
-canvas {
-    border: 5px solid cyan;
-    border-radius: 10px;
-    margin-top: 200px;
-}
-
-.play_button {
+.song_name {
     width: 130px;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 50px;
     font-family: 'Creepster',cursive;
     font-style: italic;
@@ -103,27 +41,18 @@ canvas {
     box-shadow: 5px 5px 5px black;
 }
 
-.play_button:hover {
+.song_name:hover {
     transition: 1500ms;
     background-color: cyan;
     color: blue;
 }
 
-.stop_button {
-    margin-left: 30px;
-    width: 130px;
-    font-size: 25px;
-    margin-bottom: 50px;
-    font-family: 'Creepster',cursive;
-    font-style: italic;
-    color: lime;
-    background-color: red;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px black;
+body {
+    background-size: cover;
 }
 
-.stop_button:hover {
-    transition: 1500ms;
-    background-color: blue;
-    color: cyan;
+canvas {
+    border: 5px solid cyan;
+    border-radius: 10px;
+    margin-top: 200px;
 }
